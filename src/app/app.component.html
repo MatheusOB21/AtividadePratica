@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UACompatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>{{title}}</title>
+</head>
+<body>
+  <h1>Tabela de Alunos</h1>
+    <!--tabela usando bootstrapp-->
+    <table class="table"><!--tabela-->
+      <thead class="table-dark"><!--a cabeça da tabela escura, para dar um visual melhor-->
+        <tr>
+          <!--cabeças da tabela-->
+          <th>Nome</th> 
+          <th>RU</th>
+          <th>Nome do curso</th>
+          <th>Data de aniversário</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let aluno of lista_alunos"> <td> {{aluno.name}} </td> <td>{{aluno.ru}} </td> <td> {{aluno.course}} </td> <td>{{aluno.date}}</td>
+        </tr>  
+      </tbody>
+    </table>
+</body>
+</html>   

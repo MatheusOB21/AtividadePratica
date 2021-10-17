@@ -1,0 +1,9 @@
+h1:hover{ /* quando o usuário passar o mouse sobre o nome da tag h1, irá ficar preto*/
+    color: rgb(0, 0, 0);
+    }
+h1{/*formatação do texto h1(que fica em cima da tabela)*/
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial Black;
+    color: rgb(65, 65, 65);
+}
